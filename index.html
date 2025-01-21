@@ -14,10 +14,14 @@
             color: #333;
         }
         header {
-            background: #333;
-            color: #fff;
+            background: #2c3e50;
+            color: #ecf0f1;
             padding: 1rem 0;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
         }
         .container {
             width: 90%;
@@ -28,11 +32,20 @@
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        .image-placeholder {
-            margin: 20px 0;
-            text-align: center;
-            font-style: italic;
-            color: #777;
+        .section {
+            margin-bottom: 30px;
+        }
+        .section img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            margin: 15px 0;
+        }
+        .section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -42,78 +55,64 @@
     </header>
 
     <div class="container">
-        <h2>The Quest</h2>
-        <p>
-            Talking to our guild's goblin quest giver, we received a quest to protect a caravan traveling into town. 
-            Our party included Renee, a Rougarou Commander with the ability to transform into a wolf. Her prowess 
-            would prove vital in the upcoming battles.
-        </p>
-        <div class="image-placeholder">
-            [Image Placeholder: Goblin quest giver in a guild hall.]
+        <div class="section">
+            <h2>The Quest</h2>
+            <p>
+                Talking to our guild's goblin quest giver, we received a quest to protect a caravan traveling into town. 
+                Our party included Renee, a Rougarou Commander with the ability to transform into a wolf. Her prowess 
+                would prove vital in the upcoming battles.
+            </p>
+            <img src="guild.png" alt="Goblin quest giver in the guild hall">
         </div>
 
-        <h2>Journey to the Caravan</h2>
-        <p>
-            Moving toward the caravan's route, a scouting team moved ahead to check for threats. Soon, we encountered 
-            a pack of hobgoblins lying in wait. Half of the hobgoblins reacted to the caravan's arrival, while the rest 
-            remained in position. This was our chance to strike.
-        </p>
-        <div class="image-placeholder">
-            [Image Placeholder: Dense forest path with a caravan approaching.]
+        <div class="section">
+            <h2>Journey to the Caravan</h2>
+            <p>
+                Moving toward the caravan's route, a scouting team moved ahead to check for threats. Soon, we encountered 
+                a pack of hobgoblins lying in wait. Half of the hobgoblins reacted to the caravan's arrival, while the rest 
+                remained in position. This was our chance to strike.
+            </p>
+            <img src="caravan.png" alt="Dense forest path with the caravan">
         </div>
 
-        <h2>The Battle Begins</h2>
-        <p>
-            The battle erupted as we ambushed the remaining hobgoblins. The Laughing Magus unleashed a dimensional 
-            assault, clashing with the hobgoblin warriors and their leader wielding a glaive. Renee, in her half-wolf 
-            form, sliced one hobgoblin warrior clean in half. Despite our efforts, my initial <i>Chilling Darkness</i> 
-            spell missed its mark.
-        </p>
-        <div class="image-placeholder">
-            [Image Placeholder: Hobgoblins ambushed by a Rougarou and a Laughing Magus.]
+        <div class="section">
+            <h2>The Battle Begins</h2>
+            <p>
+                The battle erupted as we ambushed the remaining hobgoblins. Renee, in her half-wolf form, sliced one hobgoblin 
+                warrior clean in half. The Laughing Magus unleashed a dimensional assault, clashing with the hobgoblin warriors 
+                and their leader wielding a glaive. The clash was fierce.
+            </p>
+            <img src="Renee.png" alt="Renee fighting the hobgoblins">
         </div>
 
-        <h2>Turning the Tide</h2>
-        <p>
-            I cast <i>Concordant Choir</i>, shattering a hobgoblin warrior's armor, though he still stood. The Magus 
-            used <i>Arcane Cascade</i> followed by <i>Thunderstrike</i>, while Renee cast <i>Form Up</i> to bolster 
-            the team's movement. The hobgoblin archers targeted me and Renee but failed to land their shots.
-        </p>
-        <div class="image-placeholder">
-            [Image Placeholder: Magus with flaming sword attacking hobgoblin leader.]
+        <div class="section">
+            <h2>The Hobgoblin General</h2>
+            <p>
+                The Hobgoblin General unleashed <i>Fear</i> on the Laughing Magus, but he retaliated with a fiery 
+                <i>Spell Strike</i>, igniting his sword and critically wounding a hobgoblin. However, the general was 
+                an imposing figure, standing tall and commanding his forces with ruthless efficiency.
+            </p>
+            <img src="General.png" alt="Hobgoblin General in the forest">
         </div>
 
-        <h2>The Hobgoblin General</h2>
-        <p>
-            The Hobgoblin General unleashed <i>Fear</i> on the Laughing Magus, but he retaliated with a fiery 
-            <i>Spell Strike</i>, igniting his sword and critically wounding a hobgoblin. When the General struck 
-            down the Magus, Renee stabilized him with her med kit, allowing him to rise again. I cast <i>Purifying Icicle</i>, 
-            striking the General and finishing him off.
-        </p>
-        <div class="image-placeholder">
-            [Image Placeholder: Hobgoblin General facing off against the party.]
+        <div class="section">
+            <h2>The Final Blow</h2>
+            <p>
+                As the battle drew to a close, the Magus delivered the final, decisive strike to the last hobgoblin, his 
+                flaming sword piercing through shattered armor. The forest fell silent as the fight ended, leaving only 
+                the aftermath of their victory.
+            </p>
+            <img src="megus.png" alt="Magus delivering the final blow to the hobgoblin">
         </div>
 
-        <h2>The Final Push</h2>
-        <p>
-            Renee flanked and killed a hobgoblin archer with a ferocious bite, while the Magus critically hit another, 
-            destroying its armor and cleaving through its chest. The last hobgoblin's attack backfired, injuring itself, 
-            before the Magus, empowered by Renee's spell, struck it down with a flaming blade, ending the skirmish.
-        </p>
-        <div class="image-placeholder">
-            [Image Placeholder: Last hobgoblin falling as Magus delivers final blow.]
+        <div class="section">
+            <h2>Victory and Return</h2>
+            <p>
+                With the threat eliminated, the caravan arrived safely in town at sunset. The villagers welcomed the adventurers 
+                as heroes, and the warm glow of the town's lights signaled the end of a hard-fought journey.
+            </p>
+            <img src="caravan.png" alt="Caravan arriving safely in town">
         </div>
-
-        <h2>Victory and Return</h2>
-        <p>
-            Renee transformed into her full wolf form to chase after the caravan. However, the caravan team had already 
-            dealt with the remaining hobgoblins. With the threat eliminated, we escorted the caravan safely back to town, 
-            earning the guild's praise.
-        </p>
-        <div class="image-placeholder">
-            [Image Placeholder: Caravan arriving safely in town at sunset.]
-        </div>
-
     </div>
 </body>
 </html>
